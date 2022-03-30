@@ -5,7 +5,7 @@ theme: introduction
 
 params:
   themeStyle: auto
-  favicon: /img/fav.ico
+  favicon: /img/favicon.ico
   showRSSButton: false
   fadeIn: true
   fadeInIndex: false
