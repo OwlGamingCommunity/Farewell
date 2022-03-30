@@ -1,6 +1,6 @@
 baseURL: 'http://example.org/'
 languageCode: en-us
-title: Farewell, OwlGaming
+title: Farewell
 theme: introduction
 
 params:
