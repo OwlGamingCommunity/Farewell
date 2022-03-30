@@ -71,11 +71,11 @@ Over 50 million lines of logs created. Imagine how many roleplay moments have be
 
 #### Top 5 Play Times
 
-| Stat                                     | Value    |
-| ---------------------------------------- | -------- |
-| ItsMelodyy                               | 180 days |
-| Vubstersmurf                             | 137 days |
-| DxRK                                     | 80 days  |
-| QueenC                                   | 56 days  |
-| christianoi                              | 46 days  |
-| ...players who played over 30 days total | 18       |
+| Stat                                   | Value    |
+| -------------------------------------- | -------- |
+| ItsMelodyy                             | 180 days |
+| Vubstersmurf                           | 137 days |
+| DxRK                                   | 80 days  |
+| QueenC                                 | 56 days  |
+| christianoi                            | 46 days  |
+| Players who played over 30 days total | 18       |
