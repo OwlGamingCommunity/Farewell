@@ -1,0 +1,77 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: My New Hugo Site
+theme: introduction
+
+params:
+  themeStyle: auto
+  favicon: /img/fav.ico
+  showRSSButton: false
+  fadeIn: true
+  fadeInIndex: false
+  dateFormat: 'Jan 2, 2006'
+  #email: chaos@owlgaming.net
+  customCSS:
+    - custom.css
+  footerText: >-
+    <span class="footer-text">OwlGaming was made with <i class="fa fa-heart"></i> 
+    by countless contributors over the years. Thank you.</span>
+  home:
+    introHeight: fullheight
+    showLatest: true
+    showAllPosts: false
+    allPostsArchiveFormat: true
+    numberOfProjectsToShow: 3
+    localTime: false
+    timeZone: America/Los_Angeles
+    timeFormat: en-US
+  projects:
+    useTwoColumns: false
+  share:
+    twitter: true
+    facebook: true
+    pinterest: true
+  giscus:
+    repo-id: enter-repo-id
+    category: Comments
+    category-id: enter-category-id
+    mapping: pathname
+    reactions-enabled: '1'
+    emit-metadata: '0'
+    theme: light
+    lang: en
+  social:
+    - url: 'https://discord.gg/0pqjfCF59OHw3ccp'
+      icon: discord
+      icon_pack: fab
+    - url: 'https://www.youtube.com/channel/UCov1MwxOPcO_Pi_b5JGT_rQ'
+      icon: youtube
+      icon_pack: fab
+    - url: 'https://github.com/OwlGamingCommunity'
+      icon: github
+      icon_pack: fab
+    - url: 'mailto:chaos@owlgaming.net'
+      icon: paper-plane
+      icon_pack: fas
+taxonomies:
+  tag: tags
+  series: series
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    style: solarized-dark
+    tabWidth: 4
+# menu:
+#   main:
+#     - name: "Home"
+#       weight: 0
+#       url: "/"

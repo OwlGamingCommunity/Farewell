@@ -1,0 +1,23 @@
+.no-borders {
+    box-shadow: none;
+    border: none;
+}
+
+.left {
+    text-align: left !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    thead tr th {
+        background-color: #4a4a4a !important;
+        color: #fff;
+    }
+    tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+        /*color: #4a4a4a !important;*/
+        background-color: #353535 !important;
+    }
+    tbody tr:nth-child(even) td, tbody tr:nth-child(even) th {
+        /*color: #4a4a4a !important;*/
+        background-color: #4a4a4a !important;
+    }
+}
