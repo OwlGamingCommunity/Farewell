@@ -4,7 +4,13 @@ This is the site for the final goodbye page that is now the OwlGaming homepage.
 
 ## Install
 
-Ensure you have `hugo-extended` installed.
+Ensure you have `hugo-extended` installed. For builds (other than serve) you should have the
+following dependencies installed with at least Node v16
+```shell
+npm i -g postcss postcss-cli autoprefixer
+```
+
+Now start it up!
 
 ```shell
 git submodule update --init --recursive
