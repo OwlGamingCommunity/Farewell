@@ -11,4 +11,4 @@ You can keep OwlGaming alive, in your own unique way, by using our [code](https:
 
 [OwlGaming MTA](https://github.com/OwlGamingCommunity/MTA)
 
-Unfortunately the **OwlGaming UCP** will remain closed-source due to licensed code.
+Unfortunately the *OwlGaming UCP* will remain closed-source due to licensed code.
